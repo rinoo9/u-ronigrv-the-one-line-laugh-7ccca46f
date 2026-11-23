@@ -8,9 +8,12 @@ import os
 
 LINE = "I downloaded a budgeting app to stop wasting money, and it immediately charged me $5 a month to tell me I'm wasting money."
 
+# One-line entries must fit within 200 characters.
+MAX_CHARS = 200
+
 
 def main() -> None:
-    assert 1 <= len(LINE) <= 200
+    assert 1 <= len(LINE) <= MAX_CHARS
     os.makedirs("/output", exist_ok=True)
     with open("/output/entry.txt", "w", encoding="utf-8", newline="") as f:
         f.write(LINE)
