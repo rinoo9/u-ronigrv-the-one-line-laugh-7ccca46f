@@ -4,11 +4,11 @@
 
 # The One-Line Laugh
 
-One-line laugh entry for the make.fun bounty "The One-Line Laugh". The program `main.py` writes a single funny sentence to `/output/entry.txt` — a smart speaker that agrees to remind you to stop procrastinating... tomorrow.
+One-line laugh entry for the make.fun bounty "The One-Line Laugh". The program `main.py` writes a single funny sentence to `/output/entry.txt` — a smart mirror that runs out of compliments.
 
 ## The line
 
-> I asked my smart speaker to remind me to stop procrastinating, and it said, 'Sure, I'll remind you tomorrow.'
+> I bought a smart mirror that compliments me every morning. Yesterday it paused, sighed, and said, 'Good luck out there.'
 
 ## Run
 
@@ -17,4 +17,4 @@ python3 main.py
 cat /output/entry.txt
 ```
 
-Deterministic: no network, no randomness, no environment reads. The output is one sentence of 109 characters.
+Deterministic: no network, no randomness, no environment reads. The output is one sentence of 120 characters.
