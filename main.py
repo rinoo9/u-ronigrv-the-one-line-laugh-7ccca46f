@@ -6,7 +6,7 @@ Deterministic: no network, no randomness, no environment reads.
 
 import os
 
-LINE = "I asked my smart speaker to remind me to stop procrastinating, and it said, 'Sure, I'll remind you tomorrow.'"
+LINE = "I bought a smart mirror that compliments me every morning. Yesterday it paused, sighed, and said, 'Good luck out there.'"
 
 # One-line entries must fit within 200 characters.
 MAX_CHARS = 200
